@@ -1,0 +1,14 @@
+/* Custom scrollbar for better UX in body and sidebar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4a5568; /* gray-700 */
+  border-radius: 4px;
+}
+
+/* Hover link effect */
+.hover-link:hover {
+  color: #3b82f6; /* blue-500 */
+  text-decoration: underline;
+}
